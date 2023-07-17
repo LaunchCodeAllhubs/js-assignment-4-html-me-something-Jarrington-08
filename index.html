@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title></title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="normalize.css">
+      <title>Favorite Video Games by Decade</title>
    </head>
    <body>
       <header>
-         <h1>My Favorite Games by Decade</h1>
+         <h1 id="mainHeading">My Favorite Games by Decade</h1>
          <nav>
             <ul>
                <li>
@@ -28,72 +33,81 @@
       </header>
       <main>
          <article>
-            <section>
+            <section id="section">
                <a name="80s"></a>
                <h2>The 80's: Super Mario Bros. 3</h2>
                <p>Super Mario Bros. 3 came out in 1988, quickly becoming one of Nintendo's most popular titles. 
-                  I mean who doesn't like flying around as Racoon Mario!? <br/>Trivia: In Japan, the name for this Mario form is 'Tanooki 
+                  I mean who doesn't like flying around as Racoon Mario!? Trivia: In Japan, the name for this Mario form is 'Tanooki 
                   Mario' and is based on the 
                   <a href="https://www.mariowiki.com/Raccoon_Mario#:~:text=Despite%20being%20localized%20as%20raccoon,with%20his%20tail%20by%20spinning.">Japanese racoon-dog</a>.
-                  Not only did the game feature tons of variety in worlds <br/> and enemies, you could always warp your way past difficult parts using those elusive warp whistles!</p>
+                  Not only did the game feature tons of variety in worlds and enemies, you could always warp your way past difficult parts using those elusive warp whistles!</p>
                <figure><img src="images/super_mario.jpg" alt="Super Mario Bros. 3 title screen">
                   <img src="images/SMB3-warpzone.png" alt="The warp zone in Super Mario Bros. 3">
                   <figcaption>Left: Super Mario Bros. 3 title screen &nbsp &nbsp &nbsp &nbsp Right: If you were lucky enough to find one of those dang warp whistles, it transported you to the warp zone
                   </figcaption>
                </figure>
             </section>
-            <section>
+            <section id="section">
                <a name="90s"></a>
                <h2>The 90's: The Legend of Zelda: Link to the Past</h2>
-               <p>First released in North America in 1992 for the Super Nintendo console, Link to the Past was the smash hit follow up to the original NES Zelda games. It introduced mainstays of subsequent Zelda games such as the Master Sword, grappling hook, and <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past">parallel worlds</a>. This was a huge relief conisdering the Master Sword is the only way to defeat Ganon and save Hyrule!</p>
+               <p id="testP" class="funParagraph">First released in North America in 1992 for the Super Nintendo console, Link to the Past was the smash hit, 16-bit follow up to the original NES Zelda games. 
+                  It introduced mainstays of subsequent Zelda games such as the Master Sword, grappling hook, and <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past">parallel worlds</a>. 
+                  This was a huge relief conisdering the Master Sword is the only way to defeat Ganon and save Hyrule!</p>
                <figure>
                   <img src="images/link_to_the_past.jpg" alt="The Legend of Zelda: A link to the Past title screen">
                   <img src="images/link_gameplay.avif" alt="Screenshots from The Legend of Zelda: Link to the Past">
-                  <figcaption>Left: The Legend of Zelda: Link to the Past title screen Center: Link finding the Master Sword Center: Link being tasked with saving the Kingdom of Hyrule
+                  <figcaption>Left: The Legend of Zelda: Link to the Past title screen &nbsp;&nbsp;&nbsp; Center: Link finding the Master Sword &nbsp;&nbsp;&nbsp;Right: Link being tasked with saving the Kingdom of Hyrule
                   </figcaption>
                </figure>
             </section>
-            <section>
+            <section id="section">
                <a name="00s"></a>
                <h2>The 2000's: Left 4 Dead</h2>
-               <p>The 2000's saw the release of much more powerful 64-bit gaming consoles like the PS2 in 2000 and later, the Xbox 360, in 2005. These game platforms provided the computing power to build larger and more complex games. Left 4 Dead <a href="https://en.wikipedia.org/wiki/Left_4_Dead">used AI</a> to make each play through of the game unique as you fight off hundreds of infected with everything from baseball bats to chainsaws!</p>
+               <p>The 2000's saw the release of much more powerful 64-bit gaming consoles like the PS2 in 2000 and later, the Xbox 360, in 2005. These game platforms 
+                   provided the computing power to build larger and more complex games. Left 4 Dead <a href="https://en.wikipedia.org/wiki/Left_4_Dead">used AI</a> 
+                   to make each play through of the game unique as you fight off hundreds of infected with everything from baseball bats to chainsaws!</p>
                <figure>
                   <img src="images/left_4_dead.jpg" alt="Left 4 Dead title screen">
                   <img src="images/left_4_dead_gameplay.jpg" alt="Screenshot of Left 4 Dead">
-                  <figcaption>Left: Left 4 Dead logo and Characters Right: The survivors must fight through throngs of zombies to escape the invasion and make it to safety
+                  <figcaption>Left: Left 4 Dead logo and Characters &nbsp;&nbsp;&nbsp;Right: The survivors must fight through throngs of zombies to escape the invasion and make it to safety
                   </figcaption>
                </figure>
             </section>
-            <section>
+            <section id="section">
                <a name="10s"></a>
                <h2>The 2010's: The Last of Us</h2>
-               <p>This is no hack-and-slash zombie survival game, the Last of Us blurred the lines between film and video game with it's gripping storyline and deep character development. Players are sucked into an extremely hostile world as they use their wits to survive in a place where one misplaced step, or misplaced trust, could mean the difference between life and death.</p>
+               <p>This is no hack-and-slash zombie survival game, the Last of Us blurred the lines between film and video game with it's gripping storyline and deep character development. 
+                  Players are sucked into an extremely hostile world as they use their wits to survive in a place where one misplaced step, or misplaced trust, could mean the 
+                  difference between life and death.</p>
                <figure>
                   <img src="images/last_of_us.jpg" alt="The Last of Us title screen">
                   <img src="images/Last_of_us_stealth.jpg" alt="Screenshot of The Last of Us">
-                  <figcaption>Left: The Last of Us title screen Right: Players must use stealth to evade players and to fight to survive
+                  <figcaption>Left: The Last of Us title screen &nbsp;&nbsp;&nbsp;Right: Players must use stealth to evade players and to fight to survive
                   </figcaption>
                </figure>
             </section>
-            <section>
+            <section id="section">
                <a name="20s"></a>
                <h2>The 2020's: Minecraft</h2>
-               <p>Yes, yes, I know that Minecraft officially came out in 2011. But with more than a decade of updates and <a href="https://www.searchlogistics.com/learn/statistics/minecraft-user-statistics/#:~:text=Minecraft%20Key%20Statistics,-Minecraft's%20growth%20made&text=Minecraft%20has%20over%20140%20million,revenue%20in%2Dgame%20sales%20alone">140 million monthly players</a> this is a game that showed up and isn't going anywhere anytime soon. You can build a simple log cabin or the Greek Parthenon, in this game the sky is literally the limit (y=320, if you know, you know). Acquired by <a href="https://en.wikipedia.org/wiki/Minecraft#:~:text=In%202014%2C%20Mojang%20and%20the,most%20recent%20release%20Minecraft%20Legends.">Microsoft in 2014</a> for $2.5 billion (that's &euro;2.23 billion or &yen;346.6 billion), this game just keeps getting bigger and bigger.</p>
+               <p>Yes, yes, I know that Minecraft officially came out in 2011. But with more than a decade of updates and <a href="https://www.searchlogistics.com/learn/statistics/minecraft-user-statistics/#:~:text=Minecraft%20Key%20Statistics,-Minecraft's%20growth%20made&text=Minecraft%20has%20over%20140%20million,revenue%20in%2Dgame%20sales%20alone">140 million monthly players</a> this is a game that showed up 
+               and isn't going anywhere anytime soon. You can build a simple log cabin or the Greek Parthenon. In this game the sky is literally the limit (y=320, if you know, you know). 
+               Acquired by <a href="https://en.wikipedia.org/wiki/Minecraft#:~:text=In%202014%2C%20Mojang%20and%20the,most%20recent%20release%20Minecraft%20Legends.">Microsoft in 2014</a> for $2.5 billion (that's &euro;2.23 billion or &yen;346.6 billion), this game just keeps getting bigger and bigger.</p>
                <figure>
                   <img src="images/Minecraft.jpg" alt="Cliffs and Caves update for Minecraft">
                   <img src="images/Minecraft_build.jpg" alt="A minecraft build featuring a large house towering above a forest">
-                  <figcaption>Left: Cliffs and Caves update for Minecraft Right: The possibilities for building things are limitless in Minecraft, like in this house towering above the forest
+                  <figcaption>Left: Cliffs and Caves update for Minecraft &nbsp;&nbsp;&nbsp;Right: The possibilities for building things are limitless in Minecraft
                   </figcaption>
                </figure>
             </section>    
          </article>
       </main>
+   </body>
             <!--Use the yen, euro, and dollar signs to talk about price of at least one game-->
       <footer>
-         <h3>More fun links about games:</h3>
+         <h2>More fun links about games:</h3>
          <p>
-            <a href="https://www.aps.org/publications/apsnews/200810/physicshistory.cfm#:~:text=Technician%20Robert%20Dvorak%20spent%20about,ball%20towards%20the%20other%20player.">The first ever video game</a>
-            <a href="https://ftw.usatoday.com/2023/06/star-citizen-costs-more-to-make-than-biggest-aaa-games#:~:text=Star%20Citizen%2C%20the%20space%20game,to%20make%20one%20video%20game.">The most expensive video game ever</a>
+            <a href="https://www.aps.org/publications/apsnews/200810/physicshistory.cfm#:~:text=Technician%20Robert%20Dvorak%20spent%20about,ball%20towards%20the%20other%20player.">The first ever video game</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://ftw.usatoday.com/2023/06/star-citizen-costs-more-to-make-than-biggest-aaa-games#:~:text=Star%20Citizen%2C%20the%20space%20game,to%20make%20one%20video%20game.">The most expensive video game ever</a>&nbsp;&nbsp;&nbsp;
             <a href="https://www.inverse.com/gaming/et-atari-game-history-review">The "worst" video game ever</a>
          </p>
       </footer>
